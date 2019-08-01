@@ -1,0 +1,30 @@
+
+#[required] server name, for example : user, city,video, info.
+ice.system.name=user
+
+# [option]server endpoint setting
+ice.servers.endpoints=tcp -h 192.168.10.46 -p 5050
+
+
+#[option]  0: not registry ( local debug), 1: registry into zk
+ice.servers.exposed=0
+
+
+#[option]ICE parameter setting
+Ice.ThreadPool.Server.Size=200
+Ice.ThreadPool.Server.SizeMax=2000
+Ice.MessageSizeMax=4096
+
+#[option] endpoint items setting
+# when ice.servers.endpoints exist, system will ignore port/ip/protocol setting
+
+# the min port value
+ice.server.port.base=4000
+ice.server.ip.private=true
+ice.server.protocol=tcp
+
+# custom ip
+ice.server.ip=192.168.10.46
+
+# custom port
+ice.server.port=5050

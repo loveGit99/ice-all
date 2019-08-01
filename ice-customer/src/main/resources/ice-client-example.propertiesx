@@ -1,0 +1,4 @@
+
+Ice.ThreadPool.Client.Size=30
+Ice.ThreadPool.Client.SizeMax=10
+Ice.MessageSizeMax=4096

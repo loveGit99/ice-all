@@ -1,0 +1,8 @@
+# [option]ice registry center node path setting
+ice.endpoints.node=/ice-services-endpoints
+
+#[required] release version setting
+service.release.version=0517
+
+
+
